@@ -1,3 +1,2 @@
-/*.imed-row {
-    background-color: crimson;
-}*/
+@import "global.css";
+@import "main.css";
