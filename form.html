@@ -124,43 +124,43 @@
             <!-- Full Name - text Field-->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="full-name">Full Name</label>
-              <input type="text" name="fullName" id="full-name" required />
+              <input type="text" name="fullName" id="full-name" required class="form-control" />
             </div>
         
             <!-- Age - number Field -->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="">Ages</label>
-              <input type="number" name="age" id="age" min="18" max="110" />
+              <input type="number" name="age" id="age" min="18" max="110" class="form-control" />
             </div>
         
             <!-- Email - email Field-->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
+              <input type="email" id="email" name="email" required class="form-control" />
             </div>
         
             <!-- Phone - tel Field-->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" />
+              <input type="tel" id="phone" name="phone" class="form-control" />
             </div>
         
             <!-- Social Media - url Field -->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="social-media">Social Media</label>
-              <input type="url" id="social-media" name="url" />
+              <input type="url" id="social-media" name="url" class="form-control" />
             </div>
         
             <!-- Start Date - date Field -->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="start-date">Start Date</label>
-              <input type="date" required id="email" name="startDate" />
+              <input type="date" required id="email" name="startDate" class="form-control" />
             </div>
         
             <!-- TSize - select (dropdown) Field -->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="tshirt-size">T-shirt Size</label>
-              <select name="tshirtSize" id="tshirt-size" required />
+              <select name="tshirtSize" id="tshirt-size" required class="form-select" />
                 <option value="">SELECT SIZE</option>
                 <option value="XS">XS</option>
                 <option value="S">S</option>
@@ -176,50 +176,50 @@
             <!-- TColor - color Field-->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="color">T-shirt Color</label>
-              <input type="color" name="color" id="color" />
+              <input type="color" name="color" id="color" class="form-control form-control-color" />
             </div>
         
             <!-- Backgroun Check - file (upload) Field -->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="background-check">Background Check</label>
-              <input type="file" name="file" id="background-check" accept=".pdf"/>
+              <input type="file" name="file" id="background-check" accept=".pdf" class="form-control" />
             </div>
         
             <!-- Participation In - radio Field -->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <strong for="">Participating In</strong><br />
-              <input type="radio" name="participation" id="fashion-show" value="Fashion Show" required />
+              <input type="radio" name="participation" id="fashion-show" value="Fashion Show" required class="form-check-input radio" />
               <label for="fashion-show">Fashion Show</label>
 
-              <input type="radio" name="participation" id="donation" value="Donation" required />
+              <input type="radio" name="participation" id="donation" value="Donation" required class="form-check-input radio" />
               <label for="donation">Donation</label>
 
-              <input type="radio" name="participation" id="expectator" value="Expectator" required />
+              <input type="radio" name="participation" id="expectator" value="Expectator" required class="form-check-input radio" />
               <label for="expectator">Expectator</label>
             </div>
         
             <!-- Time of Day - checkbox Field -->
             <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <strong for="">Time of Day</strong><br />
-              <input type="checkbox" name="timeOfDay" id="time-of-day-morning" value="Morning" required/>
+              <input type="checkbox" name="timeOfDay" id="time-of-day-morning" value="Morning" required />
               <label for="time-of-day-morning">Morning</label>
 
-              <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" value="Afternoon" required/>
+              <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" value="Afternoon" required />
               <label for="time-of-day-afternoon">Afternoon</label>
 
-              <input type="checkbox" name="timeOfDay" id="time-of-day-evening" value="Evening" required/>
+              <input type="checkbox" name="timeOfDay" id="time-of-day-evening" value="Evening" required />
               <label for="time-of-day-evening">Evening</label>
             </div>
         
             <!-- Comment - textarea Field -->
             <div class="col-12">
               <label for="about-you">Comments</label><br />
-              <textarea name="aboutYou" id="about-you"></textarea>
+              <textarea name="aboutYou" id="about-you" class="form-control"></textarea>
             </div>
         
             <!-- Terms and Conditions - checkbox (sitch) Field -->
-            <div class="col-12">
-              <input type="checkbox" name="terms" value="Yes" required />
+            <div class="col-12 form-check form-switch">
+              <input type="checkbox" name="terms" value="Yes" required class="form-control" />
               <label for="terms-and-condition">I have read and accepted the Terms and Conditions</label>
             </div>
         
