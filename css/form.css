@@ -11,3 +11,26 @@
     margin-bottom: 25px;
     box-sizing: var(--boxShadow) !important;
 }
+
+.web-form div {
+    margin-top: 10px;
+}
+
+#age {
+    width: 100px;
+}
+
+#start-date {
+    width: 150px;
+}
+
+#custom {
+    margin-top: 5px;
+
+}
+
+.radio, .checkbox {
+    width: 20px !important;
+    height: 20px !important;
+}
+
