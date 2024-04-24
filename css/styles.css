@@ -102,3 +102,8 @@
     border-radius: 50%;
     margin: auto;
 }
+
+.btn-isotope, .btn-isotope:hover {
+    color: #ffffff;
+    border-radius: 0%;
+}
