@@ -9,4 +9,5 @@
     padding: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
+    box-sizing: var(--boxShadow) !important;
 }
